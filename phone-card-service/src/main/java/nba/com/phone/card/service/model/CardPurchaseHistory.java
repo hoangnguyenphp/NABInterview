@@ -1,14 +1,17 @@
-package nba.com.phone.card.service.model.cardpurchasehistory;
+package nba.com.phone.card.service.model;
 
 import java.time.LocalDate;
 
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 @Entity
 public class CardPurchaseHistory {
 	
 	@Id
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	Integer cardPurchaseHistoryId;
 	String userName;
 	String voucherCode;

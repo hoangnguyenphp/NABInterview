@@ -1,4 +1,4 @@
-package nba.com.phone.card.service.model.user;
+package nba.com.phone.card.service.model;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
